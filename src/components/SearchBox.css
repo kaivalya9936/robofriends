@@ -1,0 +1,10 @@
+input{
+    background-color: #1b0404;
+    color: whitesmoke;
+    border-radius: 100px;
+    width: auto;
+}
+::placeholder{
+    color: whitesmoke;
+    opacity: 0.25;
+}
