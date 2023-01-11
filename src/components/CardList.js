@@ -2,7 +2,8 @@ import React from "react";
 import Card from './Card';
 
 const CardList = ({robots}) =>{ 
-    return !robots.length ?
+  
+    return (!robots.length ?
       <h1>Oops! No names match your input</h1>
     :
         <div>
@@ -20,6 +21,7 @@ const CardList = ({robots}) =>{
         })
       }
         </div>
+    )
     }
 
 
